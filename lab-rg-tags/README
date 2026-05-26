@@ -1,0 +1,20 @@
+# Lab 01 — Resource Groups, Tags & Budget Alert
+
+## What I Did
+- Created Resource Groups via Portal and CLI
+- Applied tags (Environment, Owner, CostCenter)
+- Created Budget Alert at $10 threshold
+
+## CLI Commands Used
+az group create --name myRG --location eastus
+
+az tag create --resource-id <resource-id> \
+  --tags Environment=Dev Owner=Sahana
+
+## What I Learned
+- Tags help organize and track costs
+- Budget alerts notify before overspending
+- Resource Groups are containers for resources
+
+## AZ-104 Exam Topic
+- Manage Azure identities and governance
